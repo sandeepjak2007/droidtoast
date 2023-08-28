@@ -33,3 +33,15 @@ android {
 dependencies {
 
 }
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.sandeepjak2007'
+                artifactId = 'droid-toast'
+                version = '0.1.0'
+            }
+        }
+    }
+}
