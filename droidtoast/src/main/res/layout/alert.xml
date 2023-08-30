@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        android:layout_margin="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/alert_border_success"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/iv_message"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_1sdp"
+                android:layout_weight="0.5"
+                android:contentDescription="@android:string/cancel"
+                android:src="@drawable/icon_warning" />
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/simple_error_text_message"
+                android:maxLines="3"
+                android:textColor="@color/warning_color"
+                android:textSize="@dimen/_14ssp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
