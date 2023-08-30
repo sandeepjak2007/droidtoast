@@ -7,7 +7,7 @@ Welcome to the Simple Android Toast Library!
 Add the following dependency to your app's `build.gradle` file:
 
 ```gradle
-implementation 'com.github.sandeepjak2007:droidtoast:1.0.1'
+implementation 'com.github.sandeepjak2007:droidtoast:1.0.2'
 ```
 Add the following dependency to your main `build.gradle` file:
 
@@ -21,8 +21,22 @@ DroidToast.showToast(this,"Simple toast from sample library")
 ```
 Kotlin:
 
-![image](https://github.com/sandeepjak2007/droidtoast/assets/16497904/3a995eb1-4d93-4369-890a-6f9c09375ae1)
+![image](https://github.com/sandeepjak2007/droidtoast/assets/16497904/8d87c235-deaa-4bcb-9b6f-13a25db179ae)
 
 Java:
 
-![image](https://github.com/sandeepjak2007/droidtoast/assets/16497904/435135cc-49de-4207-a03c-4b3d1b60164b)
+![image](https://github.com/sandeepjak2007/droidtoast/assets/16497904/3d566dc8-edac-4467-8d74-10db9f9d885f)
+
+## Screenshots
+
+Success 👍:
+
+![DroidToastFailure](https://github.com/sandeepjak2007/droidtoast/assets/16497904/c343cd3d-5d69-488f-84b6-3f429ad6c911)
+
+Failure 😣:
+
+![DroidToastSuccess](https://github.com/sandeepjak2007/droidtoast/assets/16497904/33dad674-05b6-48b0-9cc3-e819c798b7c0)
+
+Warning 🤔:
+
+![DroidToastWarning](https://github.com/sandeepjak2007/droidtoast/assets/16497904/ef2f594f-cd94-4c3d-9c2a-897fd474591d)
