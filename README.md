@@ -16,8 +16,17 @@ Add the following dependency to your main `build.gradle` file:
 ```
 
 ## Implementation
+Kotlin:
 ```Show Toast
-DroidToast.showToast(this,"Simple toast from sample library")
+DroidToast.showToast(this, "Simple Failure Message from sample library", status = DroidToast.FAILURE)
+DroidToast.showToast(this, "Simple Success Message from sample library", status = DroidToast.SUCCESS)
+DroidToast.showToast(this, "Simple Warning Message from sample library", status = DroidToast.WARNING)
+```
+Java:
+``` Show Toast
+DroidToast.INSTANCE.showToast(this, "Simple Failure Message from sample library", null, DroidToast.FAILURE);
+DroidToast.INSTANCE.showToast(this, "Simple Success Message from sample library", null, DroidToast.SUCCESS);
+DroidToast.INSTANCE.showToast(this, "Simple Warning Message from sample library", null, DroidToast.WARNING);
 ```
 Kotlin:
 
